@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+   background-color: rgb(199, 248, 248);
+   
+}
+.container{
+    width: 300px;
+    height: 450 px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px black;
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  
+}
+.tasks{
+    width: 100%;
+}
+li{
+    cursor: pointer;
+    width:90%;
+    height: 40px;
+    text-align: start;
+    list-style: none;
+   margin-bottom: 10px;
+   background-color: rgb(205, 230, 238);
+   padding-top: 10px;
+   padding-left: 15px;
+}
+.completed{
+ display: none;
+}
+    
